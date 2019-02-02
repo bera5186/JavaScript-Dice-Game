@@ -15,6 +15,6 @@ document.querySelector('.btn-roll').addEventListener('click', function (){
     var dice = Math.floor(Math.random() * 6) + 1;
     var diceDOM = document.querySelector('.dice');
     diceDOM.style.display = 'block';
-    diceDOM.src = '../img/dice-'+dice+'.png';
+    diceDOM.src = 'https://raw.githubusercontent.com/bera5186/JavaScript-Dice-Game/master/img/dice-'+dice+'.png';
     
 });
