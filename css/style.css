@@ -88,7 +88,7 @@ body {
     
 }
 
-.player-current-box {
+.player-current-box-0, .player-current-box-1 {
     background-color: #EB4D4D;
     color: #fff;
     width: 40%;
